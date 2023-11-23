@@ -1,5 +1,5 @@
 # Predictive Modelling of Taxi Fares in NYC Overview
-We use a linear regression...
+I use a linear regression model to...
 
 ### Problem
 testing
