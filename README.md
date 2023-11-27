@@ -2,10 +2,10 @@
 I use a linear regression model to...
 
 ### Problem
-testing
+How do we effectively predict taxi cab fares prior to the ride? what are the responsible variables that successfully predict taxi cab fares?
 
 ### Objectives
-testing
+For this part, we use a multiple linear regression
 
 ### Data Understanding
 testing
