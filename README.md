@@ -1,5 +1,5 @@
 # Predictive Modelling of Taxi Fares in NYC Overview
-The project uses a multiple linear regression model to
+The project uses a multiple linear regression model to estimate the taxi cab fare prior to the trip. The model shows that the mean distance followed by the mean duration are the best predictors for taxi cab fares. The overall model has a coefficient of determination of 86.8% which means it is a good predictor.
 
 ### Problem
 How do we effectively predict taxi cab fares prior to the ride? what are the responsible variables that successfully predict taxi cab fares?
