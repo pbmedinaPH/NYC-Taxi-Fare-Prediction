@@ -16,7 +16,7 @@ The data comes from the NYC Taxi and Limousine Commission <a href="https://data.
 In line with the data, we also employ a data-cleaning process to clean the data. We impute the outliers after checking it out on a boxplot and we assign a threshold amount to impute the data. We also dropped off irrelevant and redundant variables and isolated only the vendorID, passenger count, fare amount, mean distance, mean duration, and rush hour.
 
 ### Data Analysis and Evaluation
-The multiple linear regression model shows a scatterplot for the actual and predicted value which showcases the predicted fare amount of taxi cab rides with reasonable confidence. The 2 linear data points at the left part of the plot are the imputed maximum of $62.50 and the flat rate of $52 for JFK airport trips. The overall model has a coefficient of determination of 86.8%. By getting the model coefficients, we show that the mean distance has the greatest weight in predicting the outcome of the model which has a mean of $7.13 change for every +1 change in the standard deviation. This means that there is approximately a $2 increase for every 1 mile added on the trip.
+The multiple linear regression model shows a scatterplot for the actual and predicted value which showcases the predicted fare amount of taxi cab rides with reasonable confidence. The 2 linear data points at the left part of the plot are the imputed maximum of $62.50 and the flat rate of $52 for JFK airport trips. The overall model has a coefficient of determination of 86.8%. By getting the model coefficients, we show that the mean distance has the greatest weight in predicting the outcome of the model which has a mean of $7.13 change for every +1 change in the standard deviation. This means that there is approximately a $2 increase for every 1 mile added to the trip.
 
 <img src="images/Actual_VS_Predicted.png" alt="actual vs. preedicted value" width="420" height="400" class="center">
 <img src="images/distribution_residuals.png" alt="Distibution of residuals" width="500" height="400" class="center">
@@ -24,9 +24,9 @@ The multiple linear regression model shows a scatterplot for the actual and pred
 Binning the residuals shows that the residuals from our model follow a normal distribution around zero with a mean of -0.015. This is good because it means our model's errors are spread out and evenly distributed. This demonstrates that our model is pretty close to its predictions.
 
 ### Conclusion
-Testing
+A multiple linear regression model can reasonably predict the fare amount for taxi cab fares prior to the trip with the trip distance being the most significant indicator for predicting the cost of the trip.
 
 ### Key takeaways
-- test1
-- test2
-- test3
+- The trip distance is the most significant indicator for taxi cab fares followed by the trip duration
+- The model shows that for every 1 mile added to the trip, the fare increased by $2
+- The multiple linear regression model shows that it is an effective method to predict the estimated fare amount with a coefficient of determination of 86.8%
