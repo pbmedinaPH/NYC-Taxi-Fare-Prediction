@@ -5,7 +5,7 @@ The project uses a multiple linear regression model to estimate the taxi cab far
 How do we effectively predict taxi cab fares prior to the ride? what are the responsible variables that successfully predict taxi cab fares?
 
 ### Objective
-Estimate taxi cab fares prior to the ride.
+Estimate taxi cab fares prior to the ride and determine if the model is a good model.
 
 ### Data Understanding
 The data comes from the NYC Taxi and Limousine Commission <a href="https://data.cityofnewyork.us/Transportation/2017-Yellow-Taxi-Trip-Data/biws-g3hs">open data</a>. The data that we use consists of 22.7k data points and 18 variables. The variables included information on trip duration and distance, the vendor used, fare amount, and passenger count. We added 2 columns to generalize the trip duration and distance. The mean duration and mean distance are depicted by all trips that share a unique pair of start and end points which are grouped and averaged. The pickup and dropoff time are for the mean duration and the pickup and dropoff location are for the mean distance. The scatterplot shows that the fare amount is positively correlated to the mean duration and mean distance.
